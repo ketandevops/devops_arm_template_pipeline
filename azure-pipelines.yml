@@ -13,10 +13,10 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'ketanpipeline-sc'
+    azureResourceManagerConnection: 'ketanpipeline-sc1'
     subscriptionId: 'fddefaae-41ec-488b-838f-cef13068b75a'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'newketanpipelinerg'
+    resourceGroupName: 'ketanpipelinerg'
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/ketandevops/devops_arm_template_pipeline/master/CreateWebApp/azuredeploy.json'
