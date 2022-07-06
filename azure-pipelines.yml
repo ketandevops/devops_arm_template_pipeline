@@ -20,6 +20,6 @@ steps:
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/ketandevops/devops_arm_template_pipeline/master/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName uniqueprojectketanarm'
+    overrideParameters: '-projectName arm4567321'
     deploymentMode: 'Incremental'
     deploymentName: 'kektanpipeline-deployment'
