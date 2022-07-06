@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'AzureRmPipeline-rg'
     location: 'East US'
     templateLocation: 'Linked artifact'
-    csmFile: 'https://github.com/ketandevops/devops_arm_template_pipeline.git'
+    csmFile: 'https://github.com/ketandevops/devops_arm_template_pipeline/blob/master/azure-pipelines.yml'
     overrideParameters: '-projectName [arm]'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
